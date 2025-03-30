@@ -3,23 +3,26 @@
 
 
 {% hint style="success" %}
-**【更新】1.17.0版本更新公告：**[\
-洞穴与山崖](https://zh.minecraft.wiki/w/%E6%B4%9E%E7%A9%B4%E4%B8%8E%E5%B1%B1%E5%B4%96)（第一部分）
+## \[更新] 1.17.0版本更新公告：
 
-**更新版本：1.17.0 更新时间：2025-5-22 更新内容：**
+### 洞穴与山崖（第一部分）
 
-**新内容：**
+#### 更新版本：1.17.0&#x20;
+
+#### 更新时间：2025-5-22&#x20;
+
+#### 更新内容：&#x20;
+
+#### 新内容：
 {% endhint %}
 
-
-
 {% hint style="info" %}
-此次更新加入了[紫晶洞](https://zh.minecraft.wiki/w/%E7%B4%AB%E6%99%B6%E6%B4%9E)，以[紫水晶](https://zh.minecraft.wiki/w/%E7%B4%AB%E6%B0%B4%E6%99%B6)、[铜](https://zh.minecraft.wiki/w/%E9%93%9C)、[深板岩](https://zh.minecraft.wiki/w/%E6%B7%B1%E6%9D%BF%E5%B2%A9)为主的大量方块与物品，以及新生物[山羊](https://zh.minecraft.wiki/w/%E5%B1%B1%E7%BE%8A)、[发光鱿鱼](https://zh.minecraft.wiki/w/%E5%8F%91%E5%85%89%E9%B1%BF%E9%B1%BC)和[美西螈](https://zh.minecraft.wiki/w/%E7%BE%8E%E8%A5%BF%E8%9E%88)。
+## 此次更新加入了紫晶洞，以紫水晶、铜、深板岩为主的大量方块与物品，以及新生物山羊、发光鱿鱼和美西螈。
 {% endhint %}
 
 ## 新内容
 
-方块\[ |]
+方块\[ |
 
 [紫晶芽](https://zh.minecraft.wiki/w/%E7%B4%AB%E6%99%B6%E8%8A%BD)
 
@@ -377,7 +380,7 @@
 
 [发光鱿鱼](https://zh.minecraft.wiki/w/%E5%8F%91%E5%85%89%E9%B1%BF%E9%B1%BC)
 
-* 原型为[Minecraft Earth](https://zh.minecraft.wiki/w/Minecraft\_Earth)中的[同名生物](https://zh.minecraft.wiki/w/Earth:%E5%8F%91%E5%85%89%E9%B1%BF%E9%B1%BC)。
+* 原型为[Minecraft Earth](https://zh.minecraft.wiki/w/Minecraft_Earth)中的[同名生物](https://zh.minecraft.wiki/w/Earth:%E5%8F%91%E5%85%89%E9%B1%BF%E9%B1%BC)。
 * 水生生物，行为与普通[鱿鱼](https://zh.minecraft.wiki/w/%E9%B1%BF%E9%B1%BC)相似。
 * 自然生成于地下水源中。
 * 死亡后掉落荧光墨囊。
@@ -739,7 +742,7 @@ crop\_growth\_area\_emitter、electric\_spark\_particle、glow\_particle、sculk
 
 * 更改背景图为[紫晶洞](https://zh.minecraft.wiki/w/%E7%B4%AB%E6%99%B6%E6%B4%9E)。
 
-[![](file:///C:/Users/heaiz/AppData/Local/Temp/msohtmlclip1/01/clip\_image001.png)](https://zh.minecraft.wiki/w/File:Bedrock\_1.17\_Updated\_Loading\_Screen.png)新的加载界面
+[![](file:///C:/Users/heaiz/AppData/Local/Temp/msohtmlclip1/01/clip_image001.png)](https://zh.minecraft.wiki/w/File:Bedrock_1.17_Updated_Loading_Screen.png)新的加载界面
 
 用户界面
 
