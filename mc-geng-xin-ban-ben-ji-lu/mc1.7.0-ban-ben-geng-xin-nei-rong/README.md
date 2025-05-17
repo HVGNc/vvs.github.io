@@ -28,7 +28,7 @@
 
 [精选服务器](https://zh.minecraft.wiki/w/%E7%B2%BE%E9%80%89%E6%9C%8D%E5%8A%A1%E5%99%A8)
 
-* 加入了_The Hive_服务器。
+* 加入&#x4E86;_&#x54;he Hiv&#x65;_&#x670D;务器。
 
 ### 更改
 

@@ -175,7 +175,7 @@
 
 * 数据驱动方块现可添加至创造模式物品栏。
 * 新的化学材料现可在JSON文件中定义缩略图。
-* 将药水名称字符串资源potion.prefix和potion.._后缀_重命名为_药水_..name。
+* 将药水名称字符串资源potion.prefix和potion.._后&#x7F00;_&#x91CD;命名&#x4E3A;_&#x836F;水_..name。
 * 药水名称字符串资源现已更改，现在拥有单独的Splash和Lingering字符串资源。
 * 旧版的potion.prefix和potion.\*.postfix仍然受支持。
 * UI绑定对象现可使用ignore字段。
