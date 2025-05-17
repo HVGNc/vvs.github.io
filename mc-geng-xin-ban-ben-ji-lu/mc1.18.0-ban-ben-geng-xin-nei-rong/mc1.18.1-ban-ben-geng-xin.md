@@ -10,6 +10,10 @@
 更新内容：
 {% endhint %}
 
+{% hint style="info" %}
+## 此版本更新后服务器ID将发生变化！
+{% endhint %}
+
 <details>
 
 <summary>新内容</summary>
@@ -38,7 +42,7 @@
 
 <details>
 
-<summary></summary>
+<summary>修复</summary>
 
 
 
