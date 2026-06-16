@@ -10,6 +10,7 @@
     * [MC1.19.5版本更新](mc-geng-xin-ban-ben-ji-lu/mc1.19.0-ban-ben-geng-xin-nei-rong/mc1.19.5-ban-ben-geng-xin.md)
     * [MC1.19.6版本更新](mc-geng-xin-ban-ben-ji-lu/mc1.19.0-ban-ben-geng-xin-nei-rong/mc1.19.6-ban-ben-geng-xin.md)
     * [MC1.19.7版本更新](mc-geng-xin-ban-ben-ji-lu/mc1.19.0-ban-ben-geng-xin-nei-rong/mc1.19.2-ban-ben-geng-xin-1.md)
+    * [MC1.19.8版本更新](mc-geng-xin-ban-ben-ji-lu/mc1.19.0-ban-ben-geng-xin-nei-rong/mc1.19.8-ban-ben-geng-xin.md)
   * [MC1.18.0版本更新内容](mc-geng-xin-ban-ben-ji-lu/mc1.18.0-ban-ben-geng-xin-nei-rong.md)
     * [MC1.18.1版本更新](mc-geng-xin-ban-ben-ji-lu/mc1.18.0-ban-ben-geng-xin-nei-rong/mc1.18.1-ban-ben-geng-xin.md)
   * [MC1.17.0版本更新内容](mc-geng-xin-ban-ben-ji-lu/mc1.17.0-ban-ben-geng-xin-nei-rong.md)
