@@ -3,7 +3,7 @@
 {% hint style="warning" %}
 ## 更新要点
 
-**【更新】1.19.1版本补丁更新公告：BC1.19.1**
+**【更新】1.19.0版本补丁更新公告：BC1.19.1**
 
 更新补丁版本：1.19.1 更新时间：2026-12-18
 
@@ -514,13 +514,11 @@ Realms
 * 现在点击世界设置上的“在 Realm 上游玩”按钮后会将该世界的游戏规则复制到Realms上。
 * 现在带有1.19版本自定义和实验性GameTest框架JavaScript的包和世界在Realms中会暂时被拒绝上传。
   * Realms也暂时不支持最近发布的这种使用脚本的“Spellcraft”市场地图。
-
-- 修复了可能导致被保存的Y坐标大于或等于25的生物无法加载的漏洞。
-- 修复了在Windows上使用RTX时玩家纹理会错误渲染的问题。（[MCPE-156577](https://bugs.mojang.com/browse/MCPE-156577)）
-- 修复了在Windows上使用RTX时部分生物（例如马）的纹理会错误渲染的问题。（[MCPE-132747](https://bugs.mojang.com/browse/MCPE-132747)）
-- 修复了在Realms上游玩而没有提供命令方块别名时会阻止命令方块保存命令的问题。
-- 修复了被封禁的账户无法在Xbox平台上游玩本地世界或访问主菜单的漏洞。
-
+* 修复了可能导致被保存的Y坐标大于或等于25的生物无法加载的漏洞。
+* 修复了在Windows上使用RTX时玩家纹理会错误渲染的问题。（[MCPE-156577](https://bugs.mojang.com/browse/MCPE-156577)）
+* 修复了在Windows上使用RTX时部分生物（例如马）的纹理会错误渲染的问题。（[MCPE-132747](https://bugs.mojang.com/browse/MCPE-132747)）
+* 修复了在Realms上游玩而没有提供命令方块别名时会阻止命令方块保存命令的问题。
+* 修复了被封禁的账户无法在Xbox平台上游玩本地世界或访问主菜单的漏洞。
 * 修复了一些游戏过程中可能发生的崩溃。
 * 修复了部分超平坦世界中低于Y=0的地形会错误移除Y=0处基岩的漏洞。（[MCPE-156679](https://bugs.mojang.com/browse/MCPE-156679)、[MCPE-156698](https://bugs.mojang.com/browse/MCPE-156698)）
 * 生物进入传送高度为Y=128以上处的下界传送门后，其所在位置不再会被修改为Y=128。（[MCPE-156103](https://bugs.mojang.com/browse/MCPE-156103)）
