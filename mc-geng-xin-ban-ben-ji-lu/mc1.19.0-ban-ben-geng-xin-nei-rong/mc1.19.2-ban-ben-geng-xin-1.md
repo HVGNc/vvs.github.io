@@ -1,7 +1,9 @@
 # MC1.19.7版本更新
 
-{% hint style="warning" %}
-**更新要点**
+
+
+{% hint style="success" icon="rotate" %}
+## **更新要点**
 
 **【更新】1.19.7版本补丁更新公告：BC1.19.7**
 
@@ -14,209 +16,55 @@
 
 <summary><strong>更改</strong></summary>
 
-**更改**
 
-方块
 
-[幽匿催发体](https://zh.minecraft.wiki/w/%E5%B9%BD%E5%8C%BF%E5%82%AC%E5%8F%91%E4%BD%93)
+### 更改 <a href="#geng-gai" id="geng-gai"></a>
 
-* 现在被破坏后会掉落5点经验而不是20点。
+#### 方块 <a href="#fang-kuai" id="fang-kuai"></a>
 
-[红树原木](https://zh.minecraft.wiki/w/%E7%BA%A2%E6%A0%91%E5%8E%9F%E6%9C%A8)、[红树木](https://zh.minecraft.wiki/w/%E7%BA%A2%E6%A0%91%E6%9C%A8)和[去皮红树原木](https://zh.minecraft.wiki/w/%E5%8E%BB%E7%9A%AE%E7%BA%A2%E6%A0%91%E5%8E%9F%E6%9C%A8)
+[漏斗](https://zh.minecraft.wiki/w/%E6%BC%8F%E6%96%97)
 
-* 现在可以与[木炭](https://zh.minecraft.wiki/w/%E6%9C%A8%E7%82%AD)一起被用来合成[营火](https://zh.minecraft.wiki/w/%E8%90%A5%E7%81%AB)。
+* 现在能够吸入其上方高度低于1格的方块上的物品。
 
-[紫水晶块](https://zh.minecraft.wiki/w/%E7%B4%AB%E6%B0%B4%E6%99%B6%E5%9D%97)
+[羊毛](https://zh.minecraft.wiki/w/%E7%BE%8A%E6%AF%9B)
 
-* 英文名称重命名为“Block of Amethyst”。
-
-[钟](https://zh.minecraft.wiki/w/%E9%92%9F)
-
-* 不再可以被点燃或被烧毁。
-
-[末地传送门框架](https://zh.minecraft.wiki/w/%E6%9C%AB%E5%9C%B0%E4%BC%A0%E9%80%81%E9%97%A8%E6%A1%86%E6%9E%B6)
-
-* 英文名称由“End Portal”重命名为“End Portal Frame”以匹配[Java版](https://zh.minecraft.wiki/w/Java%E7%89%88)。
-
-[木板](https://zh.minecraft.wiki/w/%E6%9C%A8%E6%9D%BF)、[楼梯](https://zh.minecraft.wiki/w/%E6%A5%BC%E6%A2%AF)和[台阶](https://zh.minecraft.wiki/w/%E5%8F%B0%E9%98%B6)
-
-* 将橡木、云杉木、白桦木、丛林木、金合欢木和深色橡木质的木板、楼梯和台阶的英文名称中的单词“Wood”移除，以匹配[Java版](https://zh.minecraft.wiki/w/Java%E7%89%88)。
-
-[幽匿感测体](https://zh.minecraft.wiki/w/%E5%B9%BD%E5%8C%BF%E6%84%9F%E6%B5%8B%E4%BD%93)
-
-* 更改了一些振动的振动频率以匹配[Java版](https://zh.minecraft.wiki/w/Java%E7%89%88)：
-  * [苦力怕](https://zh.minecraft.wiki/w/%E8%8B%A6%E5%8A%9B%E6%80%95)爆炸的振动频率现在为15。
-  * [末地水晶](https://zh.minecraft.wiki/w/%E6%9C%AB%E5%9C%B0%E6%B0%B4%E6%99%B6)爆炸的振动频率现在为15。
-  * 放置[生物桶](https://zh.minecraft.wiki/w/%E7%94%9F%E7%89%A9%E6%A1%B6)的振动频率现在为12。
-  * [发射器](https://zh.minecraft.wiki/w/%E5%8F%91%E5%B0%84%E5%99%A8)发射[TNT](https://zh.minecraft.wiki/w/TNT)的振动频率现在为12。
+* ID现在被拆分为不同颜色羊毛的ID。
 
 #### 生物 <a href="#sheng-wu" id="sheng-wu"></a>
 
-[末影龙](https://zh.minecraft.wiki/w/%E6%9C%AB%E5%BD%B1%E9%BE%99)
+[海豚](https://zh.minecraft.wiki/w/%E6%B5%B7%E8%B1%9A)
 
-* 不再能够摧毁[哭泣的黑曜石](https://zh.minecraft.wiki/w/%E5%93%AD%E6%B3%A3%E7%9A%84%E9%BB%91%E6%9B%9C%E7%9F%B3)、[重生锚](https://zh.minecraft.wiki/w/%E9%87%8D%E7%94%9F%E9%94%9A)、[光源方块](https://zh.minecraft.wiki/w/%E5%85%89%E6%BA%90%E6%96%B9%E5%9D%97)、[拒绝方块](https://zh.minecraft.wiki/w/%E6%8B%92%E7%BB%9D%E6%96%B9%E5%9D%97)、[允许方块](https://zh.minecraft.wiki/w/%E5%85%81%E8%AE%B8%E6%96%B9%E5%9D%97)、[边界方块](https://zh.minecraft.wiki/w/%E8%BE%B9%E7%95%8C%E6%96%B9%E5%9D%97)和[拼图方块](https://zh.minecraft.wiki/w/%E6%8B%BC%E5%9B%BE%E6%96%B9%E5%9D%97)。
+* 现在在陆地上时会扑腾，以匹配[Java版](https://zh.minecraft.wiki/w/Java%E7%89%88)。
 
-[猪灵](https://zh.minecraft.wiki/w/%E7%8C%AA%E7%81%B5)
+#### 非生物实体 <a href="#fei-sheng-wu-shi-ti" id="fei-sheng-wu-shi-ti"></a>
 
-* 现在当玩家穿上金质[盔甲](https://zh.minecraft.wiki/w/%E7%9B%94%E7%94%B2)时，猪灵的轻度敌对状态会被解除。
+[末地水晶](https://zh.minecraft.wiki/w/%E6%9C%AB%E5%9C%B0%E6%B0%B4%E6%99%B6)
 
-[劫掠兽](https://zh.minecraft.wiki/w/%E5%8A%AB%E6%8E%A0%E5%85%BD)
-
-* 现在能够摧毁[红树树叶](https://zh.minecraft.wiki/w/%E7%BA%A2%E6%A0%91%E6%A0%91%E5%8F%B6)、[杜鹃花丛](https://zh.minecraft.wiki/w/%E6%9D%9C%E9%B9%83%E8%8A%B1%E4%B8%9B)、[杜鹃树叶](https://zh.minecraft.wiki/w/%E6%9D%9C%E9%B9%83%E6%A0%91%E5%8F%B6)、[洞穴藤蔓](https://zh.minecraft.wiki/w/%E6%B4%9E%E7%A9%B4%E8%97%A4%E8%94%93)、[大型垂滴叶](https://zh.minecraft.wiki/w/%E5%A4%A7%E5%9E%8B%E5%9E%82%E6%BB%B4%E5%8F%B6)、[小型垂滴叶](https://zh.minecraft.wiki/w/%E5%B0%8F%E5%9E%8B%E5%9E%82%E6%BB%B4%E5%8F%B6)、[孢子花](https://zh.minecraft.wiki/w/%E5%AD%A2%E5%AD%90%E8%8A%B1)和[垂根](https://zh.minecraft.wiki/w/%E5%9E%82%E6%A0%B9)。
-
-[僵尸](https://zh.minecraft.wiki/w/%E5%83%B5%E5%B0%B8)
-
-* 现在在困难难度下有10%的概率破门，而不是总会破门。
+* 增大了碰撞箱以匹配[Java版](https://zh.minecraft.wiki/w/Java%E7%89%88)。
 
 #### 游戏内容 <a href="#you-xi-nei-rong" id="you-xi-nei-rong"></a>
 
-[状态效果](https://zh.minecraft.wiki/w/%E7%8A%B6%E6%80%81%E6%95%88%E6%9E%9C)
+[潜行](https://zh.minecraft.wiki/w/%E6%BD%9C%E8%A1%8C)
 
-* 死亡的玩家和生物不再会受[药水](https://zh.minecraft.wiki/w/%E8%8D%AF%E6%B0%B4)、[药箭](https://zh.minecraft.wiki/w/%E8%8D%AF%E7%AE%AD)等物品的瞬间状态效果影响。
-
-振动
-
-* 振动接收者（如[幽匿感测体](https://zh.minecraft.wiki/w/%E5%B9%BD%E5%8C%BF%E6%84%9F%E6%B5%8B%E4%BD%93)、[幽匿尖啸体](https://zh.minecraft.wiki/w/%E5%B9%BD%E5%8C%BF%E5%B0%96%E5%95%B8%E4%BD%93)和[监守者](https://zh.minecraft.wiki/w/%E7%9B%91%E5%AE%88%E8%80%85)）现在改为侦测最近的振动信号，而非之前的1刻内的首个振动信号。
+* 现在会将玩家的高度降低到1.49格，使其能够穿过1.5格高的空隙。
+* 现在玩家位于小于1.8格的空间时会自动进入潜行状态。
+* 现在玩家潜行时会降低相机视角高度。
+* 现在玩家取消潜行需要足够的空间。
+* 现在有足够的空间潜行但不能站立时，玩家会从[游泳](https://zh.minecraft.wiki/w/%E6%B8%B8%E6%B3%B3)状态切换至潜行状态。
 
 #### 常规 <a href="#chang-gui" id="chang-gui"></a>
 
-[控制](https://zh.minecraft.wiki/w/%E6%8E%A7%E5%88%B6)
+游戏指南
 
-* 为iOS/iPadOS平台加入了对单击鼠标中键的支持。
-* 现在按住向左移动的方向键可以将光标向左移动至菜单左侧。
-
-[创建新世界](https://zh.minecraft.wiki/w/%E5%88%9B%E5%BB%BA%E6%96%B0%E4%B8%96%E7%95%8C)
-
-* 为Nintendo Switch平台加入了新的创建新世界UI。
-
-[市场](https://zh.minecraft.wiki/w/%E5%B8%82%E5%9C%BA)
-
-* 实现了新的市场错误屏幕艺术图标和信息。
-
-[多人游戏](https://zh.minecraft.wiki/w/%E5%A4%9A%E4%BA%BA%E6%B8%B8%E6%88%8F)
-
-* 多人游戏连接超时的判定时间由180秒减少至90秒。
-
-[音乐](https://zh.minecraft.wiki/w/%E9%9F%B3%E4%B9%90)
-
-* “So Below”现在会在[玄武岩三角洲](https://zh.minecraft.wiki/w/%E7%8E%84%E6%AD%A6%E5%B2%A9%E4%B8%89%E8%A7%92%E6%B4%B2)中播放。
-
-[选项](https://zh.minecraft.wiki/w/%E9%80%89%E9%A1%B9)
-
-* 重新设计了切换开关的样式，使开关状态之间的差别更明显。
-
-#### 技术性 <a href="#ji-shu-xing" id="ji-shu-xing"></a>
-
-常规
-
-* 修复了断开数据包能够轻易崩溃基岩版服务器的漏洞。
-* 将minecraft:part\_visibility​的条件字段中的元素个数限制为64。
-* 将minecraft:aim\_collisionblock​组件重命名为minecraft:selection\_box​。
-* 将minecraft:block\_light\_emission​组件重命名为minecraft:light\_emission​，并将其接受的值类型由浮点更改为整型。
-* 将minecraft:destroy\_time​组件重命名为minecraft:destructible\_by\_mining​，并对该组件进行了重新编写，使其既可以定义为布尔值，也可以定义为一个对象。
-  * 将其值设为true​后会使方块拥有默认的破坏所需时间，设为false​之后会使对应方块无法被徒手破坏。
-  * 将其定义为对象后可以让玩家手动设置用基础工具摧毁它所需要的时间。
-* 将minecraft:friction​组件更改为表示方块的摩擦力，而不是运动的摩擦力。
-* ​render\_method​组件设置为double\_sided​的方块现在会正确渲染背面。
-* 移除了minecraft:unwalkable​组件。
-* 将minecraft:explosion\_resistance​组件重命名为minecraft:destructible\_by\_explosion​，并重写了组件，使得其既可以定义为布尔值，也可以定义为一个对象。
-  * 将其值设为true​后会使方块拥有默认的爆炸抗性，设为false​后会使方块无法被爆炸摧毁。
-  * 将其定义为对象后可以让玩家手动设置方块的爆炸抗性。
-* 客户端现在可以自己生成LevelChunks​，这使得服务端无需生成并遍历当前视图中的每个区块。服务器只能生成时间刻范围内的LevelChunks​，并保存在磁盘上。
-  * 在客户端上创建了可以生成区块的ChunkSource​和ChunkViewSource​。
-  * 加入了FeatureRegistryPacket​，用于向客户端发送FeatureRegistry​中的内容。
-  * 将大多数BiomeComponents​加入到BiomeDefinitionListPacket​中，让客户端能更加合理地对生物群系进行后期处理。
-  * 加入了“客户端生成”地物选项。
-  * 更改了已有的遥测功能，以拆分服务端和客户端的LevelChunk​。
-  * 加入了一些代码以修复客户端的光照系统，并与服务端保持一致。
-* 加入了chat-restriction​服务器属性，用于限制所有连接到服务器的玩家的聊天。它可以在server.properties中更改，有着None​、Dropped​和Disabled​三个可能值。
-* 服务端开发者现在可以在客户端和服务端中查看方块注册表的校验值，以检查是否匹配（在输出日志中搜索“方块注册表校验值”并进行比较）。
-* 加入了disable-player-interaction​服务器属性，用于停止玩家之间的交互。
-* 修改了实体json文件以使其除了造成爆炸伤害和火焰伤害还造成弹射物伤害。（[MCPE-153740](https://bugs.mojang.com/browse/MCPE-153740)）
-* 带有item\_lock​组件的物品不再能够放置在物品展示框中或装备到盔甲架上。（[MCPE-138479](https://bugs.mojang.com/browse/MCPE-138479)）
-
-活动对象属性
-
-* 加入了活动对象上属性过多（多于32个）或字符串枚举名称过长（多于32个字符）时出现的内容日志错误。
-* 加入了新的Molanghad\_component\_group​以允许从之前保存的实体数据中计算出适当的默认值。
-* 将actor\_property​和has\_actor\_property​Molang重命名为property​和has\_property​。同时将set\_actor\_property​重命名为set\_property​。
-* 更新了set\_property​以仅允许更改本地活动对象的属性，而不是其他目标的属性。
-* 重新加入了使用Molang表达式字符串作为活动对象属性默认值的功能（主要用于随机起始值）。
+* 更新了游戏指南界面，加入了有关新触摸控制的内容。
 
 </details>
 
 <details>
 
-<summary><strong>实验性</strong></summary>
+<summary><strong>实验性</strong><br></summary>
 
-<mark style="color:purple;">**本段落的内容需要开启**</mark>[<mark style="color:purple;">**实验性玩法**</mark>](https://zh.minecraft.wiki/w/%E5%AE%9E%E9%AA%8C%E6%80%A7%E7%8E%A9%E6%B3%95)<mark style="color:purple;">**中“旁观模式”和“应用测试框架”子选项后才可使用。**</mark>
 
-#### 常规 <a href="#chang-gui" id="chang-gui"></a>
-
-[旁观模式](https://zh.minecraft.wiki/w/%E6%97%81%E8%A7%82%E6%A8%A1%E5%BC%8F)
-
-* 移除了旁观模式下的[表情](https://zh.minecraft.wiki/w/%E8%A1%A8%E6%83%85)功能。
-* 玩家现在可以在旁观模式玩家所在的位置放置方块。
-* 现在当玩家手持一张地图且在另一只手上持有其他物品时，玩家的手臂会正常渲染。（[MCPE-100259](https://bugs.mojang.com/browse/MCPE-100259)）
-* 现在旁观模式玩家的头部会正确渲染为半透明的样子。
-* 现在[角色创建器](https://zh.minecraft.wiki/w/%E8%A7%92%E8%89%B2%E5%88%9B%E5%BB%BA%E5%99%A8)头部饰件（帽子、头巾、头盔等）在旁观模式下会正确渲染为半透明的样子。
-* 披风和背部动画饰件不再能在旁观模式下渲染。（[MCPE-156929](https://bugs.mojang.com/browse/MCPE-156929)）
-* 旁观模式玩家不再可以使用或受传送门影响。（[MCPE-156684](https://bugs.mojang.com/browse/MCPE-156684)）
-
-#### 技术性 <a href="#ji-shu-xing" id="ji-shu-xing"></a>
-
-GameTest框架
-
-* 性能监视器
-  * 加入了一个性能监视器，可以用来监控GameTest中运行缓慢的脚本。
-  * 执行一个运行缓慢的脚本会出现内容日志警告。
-  * 此外，长时间的脚本挂起（在一刻中超过3秒）会导致异常。
-  * 在专用服务器的监视器配置属性中增加了一些新属性。
-    * ​script-watchdog-enable​
-      * 启用监视器（默认值为true​）。
-    * ​script-watchdog-hang-threshold​
-      * 设置脚本挂起的监视阈值（默认值为3000毫秒）。
-    * ​script-watchdog-spike-threshold​
-      * 设置一刻的监视阈值（默认值为100毫秒）。
-    * ​script-watchdog-slow-threshold​
-      * 设置运行缓慢的脚本的监视阈值（默认值为2毫秒）。
-  * 更新了mojang-minecraft-ui​模块的形式，现在可以在客户端无法显示模型格式时做出反应。
-    * 将isCanceled​字段重命名为canceled​。
-    * 加入了cancelationReason​字段。
-    * 加入了FormCancelationReason​枚举。
-  * ​ScoreboardObjectiveDisplayOptions​
-    * 加入了ScoreboardObjectiveDisplayOptions​类。
-    * 加入了只读的Objective: objective​属性。
-    * 加入了只读的ObjectiveSortOrder: sortOrder​属性。
-  * ​Scoreboard​
-    * 加入了removeObjective(objectiveId: string | Objective): void​函数。
-      * 用于取消对一个目标的跟踪。
-    * 加入了addObjective(objectiveId: string, displayName: string): Objective​函数。
-      * 用于创建一个标识为objectiveId​，且显示为跟踪displayName​的跟踪目标。
-    * 加入了getObjectiveAtDisplaySlot(displaySlotId: string): ScoreboardObjectiveDisplayOptions​函数。
-      * 用于获取用displaySlotID​标识的DisplayObjective​槽位中的目标和排序。
-    * 加入了setObjectiveAtDisplaySlot(displaySlotId: string, ScoreboardObjectiveDisplayOptions: scoreboardObjectiveDisplayOptions): Objective​函数。
-      * 用于设置用displaySlotID​标识的DisplayObjective​槽位中的目标和排序。
-    * 加入了clearObjectiveAtDisplaySlot(displaySlotId: string): Objective​函数。
-      * 用于清除目标当前显示的DisplayObjective​。
-  * ​Block​
-    * 加入了BlockSignComponent​，用于检索告示牌文本的值。
-      * 可以通过告示牌文本上的getComponent("sign")​函数访问。
-  * ​BlockSignComponent​
-    * 加入了只读属性text: string​。
-      * 用于获取告示牌文本。
-  * 系统事件
-    * 加入了beforeWatchdogTerminate​事件。
-      * 用于当诸如脚本挂起等异常发生时关闭服务器。
-    * 加入了WatchdogTerminateReason​枚举。
-      * 用于确定监视器停止工作的原因。
-    * 加入了用于配置专用服务器监视器的属性properties​。
-      * ​script-watchdog-enable-exception-handling​
-        * 启用对events.beforeWatchdogTerminate​事件的监视（默认值为true​）。
-      * ​script-watchdog-enable-shutdown​
-        * 启用在未处理监视器异常时的关服操作（默认值为true​）。
-      * ​script-watchdog-hang-exception​
-        * 在检测到脚本挂起时报告异常（默认值为true​）。
 
 </details>
 
