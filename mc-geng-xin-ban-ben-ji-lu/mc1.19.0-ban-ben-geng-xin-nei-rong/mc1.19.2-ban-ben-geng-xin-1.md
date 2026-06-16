@@ -5,7 +5,7 @@
 {% hint style="success" icon="rotate" %}
 ## **更新要点**
 
-**【更新】1.19.7版本补丁更新公告：BC1.19.7**
+#### **【更新】1.19.7版本补丁更新公告：BC1.19.7**
 
 更新补丁版本：1.19.7 更新时间：2028-3-10
 
@@ -15,8 +15,6 @@
 <details>
 
 <summary><strong>更改</strong></summary>
-
-
 
 ### 更改 <a href="#geng-gai" id="geng-gai"></a>
 
@@ -62,9 +60,182 @@
 
 <details>
 
-<summary><strong>实验性</strong><br></summary>
+<summary><strong>实验性</strong></summary>
 
+### 实验性 <a href="#shi-yan-xing" id="shi-yan-xing"></a>
 
+本段落的内容需要开启[实验性玩法](https://zh.minecraft.wiki/w/%E5%AE%9E%E9%AA%8C%E6%80%A7%E7%8E%A9%E6%B3%95)中的“下一个主要更新”、“即将推出的创作者功能”和“测试版 API”子选项后才可使用。
+
+#### 常规 <a href="#chang-gui-2" id="chang-gui-2"></a>
+
+生物
+
+* 现在物品栏和快捷栏中的猪灵的头会正确渲染耳朵的位置，使其不再覆盖头部。（[MCPE-164605](https://bugs.mojang.com/browse/MCPE-164605)）
+* 现在玩家在骑乘骆驼时会受到摔落伤害。
+
+[命令](https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4)
+
+* 修复了执行对象在命令执行前被移除时会产生的崩溃。
+
+#### 技术性 <a href="#ji-shu-xing" id="ji-shu-xing"></a>
+
+API
+
+* 将`Location`和`BlockLocation`类移出测试版脚本API，并将其所有的引用改为`Vector3`接口。
+* `ItemStack`
+  * 现在使用`setLore(undefined)`或`setLore([])`函数可以清除物品词缀。
+  * 加入了`clearLore`函数。
+    * 用于清除物品词缀。
+  * 修复了对`EntityItemComponent.itemStack`返回的`ItemStacks`调用`getComponent`或`ItemStack.getComponents`函数时会出现的漏洞。
+* `BeforeChatEvent`
+  * 加入了`getTargets(): Player[]`函数。
+    * 用于返回发送消息的目标玩家。
+  * 加入了`setTargets(players: Player[])`函数。
+    * 用于设置发送消息的目标玩家。
+  * 移除了`targets`属性。
+* `Block`
+  * 加入了`isAir`函数。
+    * 用于返回方块是否为空气。
+  * 加入了`isLiquid`函数。
+    * 用于返回方块是否为流体。
+  * 加入了`isSolid`函数。
+    * 用于返回方块是否为完整固体。
+  * 为下列方块加入了`inventory`组件：
+    * 木桶
+    * 信标
+    * 高炉
+    * 酿造台
+    * 投掷器
+    * 发射器
+    * 熔炉
+    * 漏斗
+    * 唱片机
+    * 讲台
+    * 烟熏炉
+* `Events`
+  * 加入了`entityDie`事件。
+    * 在实体死亡时触发。
+  * 将`projectileHit`属性改为只读。
+* `Player`
+  * 将`tell`函数重命名为`sendMessage`。
+  * 加入了`getSpawnPosition`方法。
+    * 用于返回重生点位置。
+  * 加入了`getSpawnDimension`方法。
+    * 用于返回重生点所在维度。
+  * 加入了`setSpawn(spawnPosition : Vec3, spawnDimension : Dimension)`方法。
+    * 用于设置重生点的位置和所在维度。
+  * 加入了`clearSpawn`方法。
+    * 将重生点的位置和所在维度设为`undefined`。
+* `World`
+  * 将`say`函数重命名为`sendMessage`。
+  * 加入了`getDefaultSpawnPosition`方法。
+    * 用于返回重生点位置。
+  * 加入了`setDefaultSpawn(spawnPosition : Vec3)`方法。
+    * 用于设置重生点位置，维度为`overworld`。
+* `BeforeDataDrivenEntityTriggerEvent`
+  * 加入了`getModifiers(): DefinitionModifier[]`函数。
+    * 用于返回实体的定义修饰符。
+  * 加入了`setModifiers(modifiers: DefinitionModifier[])`函数。
+    * 用于设置实体的定义修饰符。
+  * 移除了`modifiers`属性。
+* `BoolBlockProperty`
+  * 加入了`getValidValues(): boolean[]`函数。
+    * 用于返回`BoolBlockProperty`的所有有效布尔值。
+  * 移除了`validValues`属性。
+* 将`BlockHitInformation`改为接口。
+* `ChatEvent`
+  * 加入了`getTargets(): Player[]`函数。
+    * 用于返回发送消息的目标玩家。
+  * 移除了`targets`属性。
+* 将`Color`改为接口。
+* `DataDrivenEntityTriggerEvent`
+  * 加入了`getModifiers(): DefinitionModifier[]`函数。
+    * 用于返回实体的定义修饰符。
+  * 移除了`modifiers`属性。
+* `DefinitionModifier`
+  * 加入了`getComponentGroupsToAdd(): string[]`函数。
+    * 用于返回会与`DefinitionModifier`一同加入的属性组。
+  * 加入了`setComponentGroupsToAdd(newGroups: string[]): void`函数。
+    * 用于设置会与`DefinitionModifier`一同加入的属性组。
+  * 加入了`getComponentGroupsToRemove(): string[]`函数。
+    * 用于返回会与`DefinitionModifier`一同被移除的属性组。
+  * 加入了`setComponentGroupsToRemove(newGroups: string[]): void`函数。
+    * 用于设置会与`DefinitionModifier`一同被移除的属性组。
+  * 加入了`getTriggers(): Trigger[]`函数。
+    * 用于返回`DefinitionModifier`的事件触发器。
+  * 加入了`setTriggers(newTriggers: Trigger[]): void`函数。
+    * 用于设置`DefinitionModifier`的事件触发器。
+  * 移除了`componentGroupsToAdd`属性。
+  * 移除了`componentGroupsToRemove`属性。
+  * 移除了`triggers`属性。
+* `DirectionBlockProperty`
+  * 加入了`getValidValues(): Direction[]`函数。
+    * 用于返回`BoolBlockProperty`的所有有效方向枚举值。
+  * 移除了`validValues`属性。
+* `Entity`
+  * 加入了`getViewDirection(): Vector3`函数。
+    * 用于返回实体的视觉方向。
+  * 加入了`getRotation(): XYRotation`函数。
+    * 用于返回实体的旋转方向。
+  * 加入了`getVelocity(): Vector`函数。
+    * 用于返回实体的速度。
+  * 移除了`viewDirection`属性。
+  * 移除了`rotation`属性。
+  * 移除了`velocity`属性。
+* `EntityAgeableComponent`
+  * 加入了`getDropItems(): string[]`函数。
+    * 用于返回实体成长时的掉落物。
+  * 加入了`getFeedItems(): EntityDefinitionFeedItem[]`函数。
+    * 用于返回可对实体进行喂食的物品。
+  * 移除了`dropItems`属性。
+  * 移除了`feedItems`属性。
+* `EntityBreathableComponent`
+  * 加入了`getBreatheBlocks(): BlockPermutation[]`函数。
+    * 用于返回实体处于其中时可进行呼吸的方块。
+  * 加入了`getNonBreatheBlocks(): BlockPermutation[]`函数。
+    * 用于返回实体处于其中时不可进行呼吸的方块。
+  * 移除了`breatheBlocks`属性。
+  * 移除了`nonBreatheBlocks`属性。
+* `EntityHealableComponent`
+  * 加入了`getFeedItems(): FeedItem[]`函数。
+    * 用于返回可恢复实体生命值的物品。
+  * 移除了`items`属性。
+* 将`EntityHitInformation`改为接口。
+* `EntityRideableComponent`
+  * 加入了`getFamilyTypes(): string[]`函数。
+    * 用于返回可被骑乘的实体种类。
+  * 加入了`getSeats(): Seat[]`函数。
+    * 用于返回实体上每一个座位的骑乘者信息。
+  * 移除了`familyTypes`属性。
+  * 移除了`seats`属性。
+* `EntityTameableComponent`
+  * 加入了`getTameItems(): string[]`函数。
+    * 用于返回可驯服实体的物品。
+  * 移除了`tameItems`属性。
+* `FeedItem`
+  * 加入了`getEffects(): FeedItemEffect[]`函数。
+    * 用于返回`FeedItem`的效果。
+  * 移除了`effects`属性。
+* `IntBlockProperty`
+  * 加入了`getValidValues(): number[]`函数。
+    * 用于返回`IntBlockProperty`的所有有效整值。
+  * 移除了`validValues`属性。
+* `ItemDurabilityComponent`
+  * 加入了`getDamageRange(): NumberRange`函数。
+    * 用于返回描述物品丢失耐久度的概率的数字范围。
+  * 移除了`damageRange`属性。
+* 将`NumberRange`改为接口。
+* `ProjectileHitEvent`
+  * 加入了`getBlockHit(): BlockHitInformation`函数。
+    * 用于返回方块碰撞信息。
+  * 加入了`getEntityHit(): EntityHitInformation`函数。
+    * 用于返回实体碰撞信息。
+  * 移除了`blockHit`属性。
+  * 移除了`entityHit`属性。
+* `StringBlockProperty`
+  * 加入了`getValidValues(): string[]`函数。
+    * 用于返回`StringBlockProperty`的所有有效字符串值。
+  * 移除了`validValues`属性。
 
 </details>
 
@@ -72,135 +243,66 @@
 
 <summary><strong>修复</strong></summary>
 
-性能与稳定性
+### 修复 <a href="#xiu-fu" id="xiu-fu"></a>
 
-* 游戏不再会在玩家浏览市场时崩溃。
-* 修复了刷怪蛋相关的崩溃。（[MCPE-159302](https://bugs.mojang.com/browse/MCPE-159302)）
-* 现在会防止客户端或服务端上的传送门在低渲染距离下出现不同步。（[MCPE-158167](https://bugs.mojang.com/browse/MCPE-158167)）
-* 修复了从下界和末地返回主世界时可能发生的崩溃。
-* 进入新手硬币包界面时游戏不再会崩溃。
-* 提升了使用/locate biome​命令时的性能，以减轻服务器在搜索距离较远的生物群系时产生的卡顿。（[MCPE-157609](https://bugs.mojang.com/browse/MCPE-157609)）
-* 修复了缺失如游戏手柄等连接设备时可能发生的崩溃。
-* 修复了村民在交易过程中改变职业时发生的崩溃。现在村民在交易过程中改变职业时会关闭交易界面。
-* 修复了活塞在可移动方块或箭附近伸缩时可能发生的崩溃。
-* 修复了在同一刻内传送和杀死一个实体时可能发生的崩溃。
+原版趋同
+
+* 其中一个方块被破坏时，连接多个方块的钟不再会掉落为物品。
+* 现在繁殖马会产下随机变种的幼年马。（[MCPE-129071](https://bugs.mojang.com/browse/MCPE-129071)）
+* 修复了死亡的玩家会阻止其他玩家跳过夜晚的问题。
+* 现在无论屏幕比例为多少，食用和饮用动画都会保持居中显示。
+* 现在远距离的音符盒的音效衰减是线性的。（[MCPE-164935](https://bugs.mojang.com/browse/MCPE-164935)）
 
 游戏内容
 
-* 更改了流浪商人的生成机制以匹配Java版，其不再会生成于水中、熔岩中或地下。（[MCPE-46911](https://bugs.mojang.com/browse/MCPE-46911)）
-* 修复了弓、弩和三叉戟在初次使用时可能无法正常使用的问题。（[MCPE-159467](https://bugs.mojang.com/browse/MCPE-159467)）
-* 修复了在创造模式下新的荒野更新音乐不能在对应生物群系中播放的问题。
-* 修复了渔夫村民无法在最大等级下收购船的问题。
-* 现在远古城市中心里通往红石电路房间的隐藏门会正确打开或关闭。（[MCPE-156718](https://bugs.mojang.com/browse/MCPE-156718)）
-* 熔岩桶未能被放置或提供给部分方块时，其中的熔岩不再会消失。（[MCPE-50664](https://bugs.mojang.com/browse/MCPE-50664)）
-* 修复了远程攻击生物的武器附魔不会正常生效的问题。（[MCPE-113623](https://bugs.mojang.com/browse/MCPE-113623)）
-* 修改了生物在紫水晶类方块上行走时发出的脚步声的音量。
-* 修复了部分具有耐久度的物品无法通过创造模式物品栏获取的问题。
-* 现在远古城市中会更频繁地生成幽匿斑簇。（[MCPE-154229](https://bugs.mojang.com/browse/MCPE-154229)）
-* 玩家进入坐标位于Y=-21以下的下界传送门后不再会受到伤害。（[MCPE-154888](https://bugs.mojang.com/browse/MCPE-154888)）
-* 修复了记分板上的分数不能正确排序的问题。（[MCPE-141427](https://bugs.mojang.com/browse/MCPE-141427)）
-* 修复了使用/kill​命令清除浮漂实体后会有掉落物的问题。（[MCPE-142329](https://bugs.mojang.com/browse/MCPE-142329)）
-* 玩家的灵魂疾行魔咒现在可以正常地在灵魂沙上生效。（[MCPE-157152](https://bugs.mojang.com/browse/MCPE-157152)）
-* 修复了导致health\_boost​显示错误的生命值，并且会在玩家死后将其隐形，使其无法与世界进行交互的漏洞。
-* 现在交易时村民会根据输入槽中的物品播放正确的音效。（[MCPE-152555](https://bugs.mojang.com/browse/MCPE-152555)）
-* 远古城市中的生物头颅现在拥有与Java版相匹配的旋转方向。（[MCPE-153547](https://bugs.mojang.com/browse/MCPE-153547)）
-* 现在指定format\_version​为1.19.20或更高版本时，会在根定义中启用事件过滤器以通过独立于序列或随机的方式来进行计算。
-* 修复了从生命提升效果中得到的额外生命值无法被保留的问题。（[MCPE-153504](https://bugs.mojang.com/browse/MCPE-153504)）
-
-生物
-
-* 北极熊在受到攻击时不再会逃跑。
-* 蝌蚪在陆地上的扑腾速度现在和Java版以及其他鱼类更加接近。（[MCPE-154316](https://bugs.mojang.com/browse/MCPE-154316)）
-* 现在玩家穿戴上金质盔甲后，猪灵会停止攻击。（[MCPE-65516](https://bugs.mojang.com/browse/MCPE-65516)）
-* 无职业的僵尸村民现在可以搭乘矿车或船。（[MCPE-76831](https://bugs.mojang.com/browse/MCPE-76831)）
-* 劫掠兽现在可以摧毁红树树叶、杜鹃花丛、杜鹃树叶、洞穴藤蔓、垂滴叶、孢子花以及垂根。（[MCPE-156551](https://bugs.mojang.com/browse/MCPE-156551)、[MCPE-125322](https://bugs.mojang.com/browse/MCPE-125322)）
-* 现在会在放置自定义生物桶后生成对应的生物。
-* 修复了在放置生物桶时生成顺序的问题，现在所有被施加的活动对象属性都可以正常加载。
-* 悦灵现在能够在船上捡起和投掷物品。（[MCPE-156377](https://bugs.mojang.com/browse/MCPE-156377)）
-* 悦灵现在总是能够捡起掉落物形式的脚手架。（[MCPE-157512](https://bugs.mojang.com/browse/MCPE-157512)）
-* 悦灵现在会在唱片机播放的音乐结束时正确停止跳舞。
-* 悦灵现在能够看向如玩家等目标。（[MCPE-158222](https://bugs.mojang.com/browse/MCPE-158222)）
-* 鱼被放置在单独一格水中时不再会抖动。
-* 修复了使用entity\_born​或on\_tame​事件生成狼时会生成出红色的狼的问题。
-* 修复了女巫可能会停止自然生成的漏洞。沼泽小屋结构现在被设置为女巫在地表生成的地点。（[MCPE-60552](https://bugs.mojang.com/browse/MCPE-60552)）
-* 末影龙不再能够摧毁哭泣的黑曜石、重生锚、光源方块、拒绝方块、允许方块、边界方块和拼图方块。（[MCPE-158343](https://bugs.mojang.com/browse/MCPE-158343)）
-* 修复了导致拥有minecraft:behavior.sleep​意向的生物的碰撞箱缩小的问题。（[MCPE-46040](https://bugs.mojang.com/browse/MCPE-46040)）
-* 降低了悦灵和蜜蜂卡在不完整方块中的概率。（[MCPE-155777](https://bugs.mojang.com/browse/MCPE-155777)）
-* 现在监守者会检测到在幽匿感测体上潜行的玩家。（[MCPE-155804](https://bugs.mojang.com/browse/MCPE-155804)）
-* 现在监守者可以自由下落20格，而不只是3格。（[MCPE-158304](https://bugs.mojang.com/browse/MCPE-158304)）
-* 悦灵现在可以拾取和手中盔甲耐久度不同的盔甲物品。（[MCPE-158339](https://bugs.mojang.com/browse/MCPE-158339)）
-* 现在在实体死亡后它们在世界中的数据会被删除。（[MCPE-155283](https://bugs.mojang.com/browse/MCPE-155283)）
-* 修复了可能导致被保存的Y坐标大于或等于25的生物无法加载的问题。
+* 玩家接触能够造成伤害的方块时不再会快速受到伤害。（[MCPE-165347](https://bugs.mojang.com/browse/MCPE-165347)）
+* 修复了在1.8或更高版本进入1.7.1.0的世界时可能发生的崩溃。（[MCPE-165564](https://bugs.mojang.com/browse/MCPE-165564)）
+* 游泳或使用鞘翅滑翔的玩家射出弹射物时，其不再会生成在玩家所在位置上方。（[MCPE-31896](https://bugs.mojang.com/browse/MCPE-31896)）
+* 游泳或使用鞘翅滑翔的玩家手动丢弃物品或死亡时，物品不再会生成在玩家所在位置上方。（[MCPE-31896](https://bugs.mojang.com/browse/MCPE-31896)）
+* 现在使用十字准星的玩家可以在游泳或使用鞘翅滑翔时正确进行挖掘，或与前方物品交互，而不是在玩家所在位置上方一格进行交互。（[MCPE-57257](https://bugs.mojang.com/browse/MCPE-57257)）
+* 现在即使拥有相同的成书，玩家也可以在物品栏中移动成书。
+* 双击熔炉的输出槽时不再会将物品丢弃。（[MCPE-165079](https://bugs.mojang.com/browse/MCPE-165079)）
+* 修复了侦测器无法检测数据损坏导致的更改的漏洞。（[MCPE-150506](https://bugs.mojang.com/browse/MCPE-150506)）
+* 漏斗现在能够吸入其上方高度低于完整方块的方块上的物品。（[MCPE-55824](https://bugs.mojang.com/browse/MCPE-55824)）
+* 对刷怪笼使用蜜蜂刷怪蛋时不再会创建内容日志错误。
+* 带有脚本的行为包现在能够从世界中移除。
 
 方块
 
-* 移除了红树木板、红树木楼梯和红树木台阶的英文名称中的单词“Wood”。（[MCPE-156791](https://bugs.mojang.com/browse/MCPE-156791)）
-* 现在即使随机刻速度被设置为0，缠怨藤和垂泪藤也会在没有附着方块时掉落。（[MCPE-69305](https://bugs.mojang.com/browse/MCPE-69305)）
-* 在没有完全成熟时，悬挂的红树胎生苗被精准采集附魔工具采集时不再会掉落任何物品。（[MCPE-156821](https://bugs.mojang.com/browse/MCPE-156821)）
-* 沾泥的红树根现在可以横向放置。（[MCPE-153721](https://bugs.mojang.com/browse/MCPE-153721)）
-* 在周边放置方块时，悬挂的红树胎生苗不再会改变颜色。（[MCPE-156570](https://bugs.mojang.com/browse/MCPE-156570)）
-* 末地传送门框架的英文名称由“End Portal”更改为“End Portal Frame”。（[MCPE-76821](https://bugs.mojang.com/browse/MCPE-76821)）
-* 紫水晶块的英文名称由“Amethyst Block”更改“Block of Amethyst”。（[MCPE-125821](https://bugs.mojang.com/browse/MCPE-125821)）
-* 红树原木、红树木和去皮红树原木现在可用于合成营火。（[MCPE-157271](https://bugs.mojang.com/browse/MCPE-157271)）
-* 现在物品栏中的营火可以被正确堆叠。（[MCPE-159398](https://bugs.mojang.com/browse/MCPE-159398)）
-* 修复了活塞被手动破坏后可能不会掉落其自身的漏洞。（[MCPE-158314](https://bugs.mojang.com/browse/MCPE-158314)）
-* 现在村民工作时发出的锻造台音效与玩家使用锻造台时相同。（[MCPE-79716](https://bugs.mojang.com/browse/MCPE-79716)）
-* 钟不再能被点燃或被烧毁。
-* 红树树叶和杜鹃树叶不再会阻止对应树木的生长。（[MCPE-154980](https://bugs.mojang.com/browse/MCPE-154980)）
-
-幽匿类方块
-
-* 如果两个事件同时发生，幽匿感测体现在会优先感应距离较近的那个。（[MCPE-155793](https://bugs.mojang.com/browse/MCPE-155793)）
-* 如果两个事件同时发生且距离相同，幽匿感测体现在会优先感应振动频率较高的那个。
-* 幽匿感测体现在感测到苦力怕爆炸的振动频率为15。
-* 幽匿感测体现在感测到末地水晶爆炸的振动频率为15。（[MCPE-153733](https://bugs.mojang.com/browse/MCPE-153733)）
-* 幽匿感测体现在感测到生物桶放置的振动频率为12。
-* 幽匿感测体现在感测到发射器发射TNT的振动频率为12。
-* 振动粒子的方向现在总是会朝着对应的幽匿感测体。（[MCPE-156648](https://bugs.mojang.com/browse/MCPE-156648)）
-* 幽匿催发体现在会在催发时发出催发音效。（[MCPE-153562](https://bugs.mojang.com/browse/MCPE-153562)）
-* 若keepInventory​游戏规则设置为true​，则幽匿催发体不再会在玩家死亡时蔓延。（[MCPE-157884](https://bugs.mojang.com/browse/MCPE-157884)）
-* 幽匿催发体上有生物死亡时不再会覆上幽匿脉络。
-* 幽匿催发体现在会在没有经验的生物在其附近死亡时蔓延。
-* 幽匿感测体现在可以检测到蜜蜂、鸡、悦灵、幻翼和末影龙的飞行。（[MCPE-153725](https://bugs.mojang.com/browse/MCPE-153725)、 [MCPE-154055](https://bugs.mojang.com/browse/MCPE-154055)）
-* 幽匿感测体现在可以根据振动发生的距离发出整个范围内的红石信号强度。之前版本中只会发出1到15级甚至更小范围的信号强度。
-* 现在幽匿催发体被破坏后会掉落5点经验而不是20点。
-* 幽匿斑块地物现在可以被放置在更多种类的方块上。（[MCPE-156669](https://bugs.mojang.com/browse/MCPE-156669)）
+* 现在破坏红树原木或木头后会正确导致其上的树叶消失。
+* 末地水晶和方块占用同一空间时不再会导致方块消失。
 
 图形
 
-* 修复了当玩家在拥有迅捷效果的情况下疾跑时视场角会出现的卡顿问题。
-* 在数据驱动方块被镶嵌后，基于轴心点旋转的几何箱现在会围绕着正确的轴心点旋转。
-* 修复了雪层下落在玩家上方时玩家能够透视的问题，因此雪层现在覆盖住玩家的视线时会显示为固体方块。（[MCPE-150709](https://bugs.mojang.com/browse/MCPE-150709)）
-* 修复了Windows上RTX功能启用时，发光方块的光点会错误聚集在某处的问题。（[MCPE-159485](https://bugs.mojang.com/browse/MCPE-159485)、[MCPE-159488](https://bugs.mojang.com/browse/MCPE-159488)）
+* 修复了创造模式下使用三叉戟对准方块时会出现“挖掘”工具提示的问题。（[MCPE-44846](https://bugs.mojang.com/browse/MCPE-44846)）
+
+生物
+
+* 现在鹦鹉在玩家骑乘的马跳跃时不再会颤抖。
+* 修复了在渲染距离外全局性实体（如末影龙、弹射物）不会被渲染的漏洞。（[MCPE-161136](https://bugs.mojang.com/browse/MCPE-161136)）
+* 现在定义热带鱼生成规则的JSON文件会被放置在正确的文件夹中。（[MCPE-165963](https://bugs.mojang.com/browse/MCPE-165963)）
+* 现在女巫的JSON文件会定义其饮用药水和远程攻击的动作。
+
+触摸控制
+
+* 更新了游戏指南界面，加入了有关新触摸控制的内容。
+* 现在将控制模式由游戏手柄更改为触控后选择一个物品时，会返回至所选择的物品栏或将该物品丢弃。
+* 修复了在熔炉界面中双击窗口会导致无法选择其他槽位的问题。
+* 修复了打开小型箱子时第一个槽位上会自动启用渐进式选择的漏洞。
+
+移动平台
+
+* 现在在携带版UI下创建新世界并关闭文本朗读选项后，“按 打开聊天栏 打开聊天”信息会被移除。
 
 用户界面
 
-* “转动视角”的提示现在会显示玩家重新设置的热键而不是默认的按键。
-* 猪装备上鞍后的骑乘提示的英文名称由“Mount”更改为“Ride”，以匹配其他可骑乘动物。
-* 为大型图标嵌入纹理（如玩家手中的物品）的操作加入了内容日志警告。
-* 修复了在iOS上使用鼠标和键盘时，若滚动条的一部分落在滚动条外边，玩家无法将鼠标悬停在滚动条内的UI元素上的问题。这是滚动条聚集在最近的非修剪元素的结果。
-* 现在物品栏中带有can\_place\_on​组件的方块的悬停文本顺序现在和游戏的保存顺序一致。（[MCPE-153516](https://bugs.mojang.com/browse/MCPE-153516)）
-* 移除了Oculus平台上的控制器设置选项卡。
-* 现在山羊角的音效在设置中被划分在“唱片机/音符盒”音效分类中。（[MCPE-154885](https://bugs.mojang.com/browse/MCPE-154885)）
-* 修复了加入服务器功能不会保存IPV6地址的问题。（[MCPE-66233](https://bugs.mojang.com/browse/MCPE-66233)）
+* 现在海洋探险家地图、林地探险家地图和藏宝图会显示正确的物品栏图标。（[MCPE-163464](https://bugs.mojang.com/browse/MCPE-163464)）
+* 修复了无法使用鼠标在好友选项下拉菜单中滚动内容的漏洞。
+* 修复了登录或注册界面的图形元素会延伸至对话框容器范围之外的问题。
 
-Realms
+命令
 
-* 更新了Realms Plus上的FAQ，以阐明所有平台上的基岩版均可购买Realms Plus。
-* 修复了创建新的Realms后会进入游玩界面，而不是返回创建新世界界面的问题。
-* 现在可以在VR平台上使用Realms反馈的截图键。
-
-**其他修复**
-
-* 修复了一些游戏过程中可能发生的崩溃。
-* 修复了村民的职业不会表现在其服装上的问题。（[MCPE-160475](https://bugs.mojang.com/browse/MCPE-160475)）
-* 修复了在部分设备上游玩时会出现图形缺陷的漏洞。（[MCPE-160491](https://bugs.mojang.com/browse/MCPE-160491)、[MCPE-160758](https://bugs.mojang.com/browse/MCPE-160758)、[MCPE-160451](https://bugs.mojang.com/browse/MCPE-160451)）
-* 修复了悬浮在生物上方的名称会稍微偏移的漏洞。（[MCPE-160254](https://bugs.mojang.com/browse/MCPE-160254)）
-* 修复了市场世界中的部分方块会在Realms上显示为数据更新方块的问题。
-* 付费表情不再能被免费装备。
-* 修复了在部分平台上加载装有纹理包的世界时可能出现的崩溃。（[MCPE-160800](https://bugs.mojang.com/browse/MCPE-160800)）
-* 修复了当删除世界时其在云端同步的世界不会被删除的漏洞。
-* 修复了Xbox上在仍有存储空间的情况下出现内存已满提示的问题。
+* ​/replaceitem​和/loot replace block​命令不再会在炼药锅中放置物品。（[MCPE-129472](https://bugs.mojang.com/browse/MCPE-129472)）
+* ​/teleport​命令中的旋转方向现在会相对于命令执行者，而不是目标。
 
 </details>
-
