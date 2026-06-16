@@ -1,8 +1,22 @@
-# mc1.20.0版本更新内容
+# 未命名
 
-### 新内容
+> 1.20.0是[足迹与故事](https://zh.minecraft.wiki/w/%E8%B6%B3%E8%BF%B9%E4%B8%8E%E6%95%85%E4%BA%8B)的首个正式版，也是[基岩版](https://zh.minecraft.wiki/w/%E5%9F%BA%E5%B2%A9%E7%89%88)的一次主要更新，发布于2028年8月17日[<sup>\[1\]</sup>](https://zh.minecraft.wiki/w/%E5%9F%BA%E5%B2%A9%E7%89%881.20.0#cite_note-1)[<sup>\[2\]</sup>](https://zh.minecraft.wiki/w/%E5%9F%BA%E5%B2%A9%E7%89%881.20.0#cite_note-2)。此次更新加入了[樱花树林](https://zh.minecraft.wiki/w/%E6%A8%B1%E8%8A%B1%E6%A0%91%E6%9E%97)生物群系、新生物[骆驼](https://zh.minecraft.wiki/w/%E9%AA%86%E9%A9%BC)和[嗅探兽](https://zh.minecraft.wiki/w/%E5%97%85%E6%8E%A2%E5%85%BD)、考古学相关内容，以及大量的新方块与新物品。
 
-#### 方块
+{% hint style="success" icon="rotate" %}
+## \[更新] 1.20.0版本更新公告：
+
+更新版本：1.20.0
+
+版本名称：\[足迹与故事]
+
+更新时间：2026-7-23
+
+更新内容：
+{% endhint %}
+
+## 新内容
+
+### 方块
 
 [**竹板**](https://zh.minecraft.wiki/w/%E7%AB%B9%E6%9D%BF)
 
@@ -131,7 +145,7 @@
 * 可在[闪电苦力怕](https://zh.minecraft.wiki/w/%E9%97%AA%E7%94%B5%E8%8B%A6%E5%8A%9B%E6%80%95)杀死[猪灵](https://zh.minecraft.wiki/w/%E7%8C%AA%E7%81%B5)时掉落。
 * 当`NoGravity`​为0时，会在其收到红石信号时或玩家穿戴其行走时扇动耳朵。
 
-#### 物品
+### 物品
 
 [**瓶子草荚果**](https://zh.minecraft.wiki/w/%E7%93%B6%E5%AD%90%E8%8D%89%E8%8D%9A%E6%9E%9C)
 
@@ -194,7 +208,7 @@
   * 能够在[古迹废墟](https://zh.minecraft.wiki/w/%E5%8F%A4%E8%BF%B9%E5%BA%9F%E5%A2%9F)通过刷扫[可疑的沙砾](https://zh.minecraft.wiki/w/%E5%8F%AF%E7%96%91%E7%9A%84%E6%B2%99%E7%A0%BE)获得。
   * 能通过[红石比较器](https://zh.minecraft.wiki/w/%E7%BA%A2%E7%9F%B3%E6%AF%94%E8%BE%83%E5%99%A8)输出15格红石信号。[<sup>\[5\]</sup>](https://zh.minecraft.wiki/w/%E5%9F%BA%E5%B2%A9%E7%89%881.20.0#cite_note-5)
 
-#### 生物
+### 生物
 
 [**骆驼**](https://zh.minecraft.wiki/w/%E9%AA%86%E9%A9%BC)
 
@@ -209,7 +223,7 @@
 [**嗅探兽**](https://zh.minecraft.wiki/w/%E5%97%85%E6%8E%A2%E5%85%BD)
 
 * [Minecraft Live 2022](https://zh.minecraft.wiki/w/Minecraft_Live_2022)生物投票的获胜生物，属于友好生物，体型很大。
-* 有14（× 7）点生命值。
+* 有14（ × 7）点生命值。
 * 会被火把花种子吸引，但不能被驯服。
 * 时常嗅探空气，有时能刨挖出火把花种子与瓶子草荚果。
   * 有8分钟冷却时间。
@@ -217,7 +231,7 @@
 * 可以使用火把花种子喂养和繁殖。
   * 繁殖后会掉落嗅探兽蛋。
 
-#### 非生物实体
+### 非生物实体
 
 [**竹筏**](https://zh.minecraft.wiki/w/%E7%AB%B9%E7%AD%8F)
 
@@ -235,7 +249,7 @@
 
 * 由樱花木板合成的运输船变种。
 
-#### 世界生成
+### 世界生成
 
 [**樱花树林**](https://zh.minecraft.wiki/w/%E6%A8%B1%E8%8A%B1%E6%A0%91%E6%9E%97)
 
@@ -252,7 +266,7 @@
 * 主要由[泥砖](https://zh.minecraft.wiki/w/%E6%B3%A5%E7%A0%96)、各色[陶瓦](https://zh.minecraft.wiki/w/%E9%99%B6%E7%93%A6)和[带釉陶瓦](https://zh.minecraft.wiki/w/%E5%B8%A6%E9%87%89%E9%99%B6%E7%93%A6)以及一些功能方块构成。
 * 不包含[箱子](https://zh.minecraft.wiki/w/%E7%AE%B1%E5%AD%90)，但会生成可疑的沙砾。
 
-#### 游戏内容
+### 游戏内容
 
 [**成就**](https://zh.minecraft.wiki/w/%E6%88%90%E5%B0%B1)
 
@@ -261,7 +275,7 @@
   * “种植过去”——种植任意嗅探兽种子（10G）
   * “风格别致的锻造”——至少应用一次这些锻造模板：尖塔、猪鼻、肋骨、结界、幽静、猥傀、潮汐、向导<sup>\[</sup>​[<sup>原文如此</sup>](https://zh.wikipedia.org/wiki/sic)​<sup>]</sup>（30G）
 
-#### 常规
+### 常规
 
 [**闪烁标语**](https://zh.minecraft.wiki/w/%E9%97%AA%E7%83%81%E6%A0%87%E8%AF%AD)
 
@@ -300,16 +314,16 @@
 * 在可访问性设置中加入了“聊天消息持续时间”选项。
   * 用于修改聊天消息在屏幕上的停留时间，默认为3秒。
 
-#### 技术性
+### 技术性
 
 **实体过滤器**
 
 * 加入了`all_slots_empty`​和`any_slot_empty`​实体过滤器。
   * 用于搜索指定装备位置的空物品槽。
 
-### 更改
+## 更改
 
-#### 方块
+### 方块
 
 [**紫水晶块**](https://zh.minecraft.wiki/w/%E7%B4%AB%E6%B0%B4%E6%99%B6%E5%9D%97)
 
@@ -380,7 +394,7 @@
 * 激活状态的持续时长由40游戏刻改为30游戏刻。
 * 冷却状态的持续时长由1游戏刻改为10游戏刻。
 
-#### 物品
+### 物品
 
 [**盔甲**](https://zh.minecraft.wiki/w/%E7%9B%94%E7%94%B2)
 
@@ -407,13 +421,13 @@
 
 [**药水**](https://zh.minecraft.wiki/w/%E8%8D%AF%E6%B0%B4)**及其**[**喷溅**](https://zh.minecraft.wiki/w/%E5%96%B7%E6%BA%85%E8%8D%AF%E6%B0%B4)、\*\*[滞留](https://zh.minecraft.wiki/w/%E6%BB%9E%E7%95%99%E8%8D%AF%E6%B0%B4)\*\*变种
 
-* 更改了所有药水（包括水瓶）的颜色以匹配[Java版](https://zh.minecraft.wiki/w/Java%E7%89%88).[<sup>\[7\]</sup>](https://zh.minecraft.wiki/w/%E5%9F%BA%E5%B2%A9%E7%89%881.20.0#cite_note-7)
+* 更改了所有药水（包括水瓶）的颜色以匹配[Java版](https://zh.minecraft.wiki/w/Java%E7%89%88)。[<sup>\[7\]</sup>](https://zh.minecraft.wiki/w/%E5%9F%BA%E5%B2%A9%E7%89%881.20.0#cite_note-7)
 
 [**药箭**](https://zh.minecraft.wiki/w/%E8%8D%AF%E7%AE%AD)
 
 * 更改了除治疗之箭、再生之箭和虚弱之箭以外的所有药箭的颜色。
 
-#### 生物
+### 生物
 
 [**玩家**](https://zh.minecraft.wiki/w/%E7%8E%A9%E5%AE%B6)
 
@@ -423,7 +437,7 @@
 
 * 现在能检测到[紫水晶块](https://zh.minecraft.wiki/w/%E7%B4%AB%E6%B0%B4%E6%99%B6%E5%9D%97)的共振。
 
-#### 世界生成
+### 世界生成
 
 [**沙漠神殿**](https://zh.minecraft.wiki/w/%E6%B2%99%E6%BC%A0%E7%A5%9E%E6%AE%BF)
 
@@ -434,7 +448,7 @@
 
 * 现在可疑的沙子会生成在其水下。
 
-#### 游戏内容
+### 游戏内容
 
 **锻造机制**
 
@@ -450,7 +464,7 @@
 
 * [村庄英雄](https://zh.minecraft.wiki/w/%E6%9D%91%E5%BA%84%E8%8B%B1%E9%9B%84)效果现在拥有粒子颜色。
 
-#### 常规
+### 常规
 
 [**鸣谢名单**](https://zh.minecraft.wiki/w/%E9%B8%A3%E8%B0%A2%E5%90%8D%E5%8D%95)
 
@@ -491,13 +505,13 @@
 
 * 将“通知持续时间”选项重命名为“吐司通知持续时间<sup>\[</sup>​[<sup>原文如此</sup>](https://zh.wikipedia.org/wiki/sic)​<sup>]</sup>”。
 
-#### 技术性
+### 技术性
 
 **专用服务器**
 
 * 现在内容日志会使用如下属性在控制台窗口中显示，且拥有可配置的日志级别。
-  * `content-log-level`：设置最小的日志输出级别。有效值为`verbose`、`info`、`warning`和`error`。默认值为`info`。
-  * `content-log-console-output-enabled`：启用或禁用日志的输出。默认值为`true`。
+  * ​`content-log-level`​：设置最小的日志输出级别。有效值为`verbose`​、`info`​、`warning`​和`error`​。默认值为`info`​。
+  * ​`content-log-console-output-enabled`​：启用或禁用日志的输出。默认值为`true`​。
 
 **附加包和脚本引擎**
 
@@ -518,7 +532,7 @@
 
 * 现在命令行中的自动补全不再会提示已经输入的方块状态。（[MCPE-168055](https://bugs.mojang.com/browse/MCPE-168055)）
 * 提升了加载命令和命令窗口时的整体性能。
-* `has item`​命令选择器现在可以正确检测活动对象的物品栏中是否有已创建的地图或烟火之星。
+* ​`has item`​命令选择器现在可以正确检测活动对象的物品栏中是否有已创建的地图或烟火之星。
 * 现在`/inputpermission`​会在命令栏的预览中显示命令描述。
 
 **附加包**
@@ -528,7 +542,7 @@
 **常规**
 
 * 现在使用不含有假日创造者组件的1.16.100及1.17及以上版本JSON格式的自定义项目不需要开启“假日创造者功能”实验性功能开关即可加载。
-* `minecraft:friction`​在计算地面摩擦力时不再会被忽略。
+* ​`minecraft:friction`​在计算地面摩擦力时不再会被忽略。
 * 现在当`dispense_on`​字段为空时，拥有`minecraft:entity_placer`​物品组件的物品会在空气方块上创建一个活动对象。
 * 现在在1.19.80及以上版本的JSON格式中拥有`minecraft:entity_placer`​物品组件的物品可以在刷怪笼上使用以改变其活动对象的生成类型。
 * 移除了`minecraft:repairable`​物品组件中的`on_repaired`​参数。
@@ -566,17 +580,17 @@
 
 * 现在`minecraft:boostable`​的`speed_multiplier`​组件可以在JSON文件中正确解析。（[MCPE-164424](https://bugs.mojang.com/browse/MCPE-164424)）
 
-### 实验性
+## 实验性
 
 本段落的内容需要开启[实验性玩法](https://zh.minecraft.wiki/w/%E5%AE%9E%E9%AA%8C%E6%80%A7%E7%8E%A9%E6%B3%95)中的“测试版 API”、“假日创造者功能”、“即将推出的创作者功能”和“实验相机”子选项后才可使用。
 
-#### 命令格式
+### 命令格式
 
 **`/camera`**
 
 * 用于修改玩家的相机视角和屏幕的淡入淡出。
 
-#### 技术性
+### 技术性
 
 **附加包和脚本引擎**
 
@@ -585,14 +599,14 @@
   * 可以通过`block_property`​Molang队列和`set_block_property`​事件响应来访问应用`placement_direction`​状态的方块的`minecraft:cardinal_direction`​。
 * 加入了`minecraft:placement_position`​方块特征。
   * 加入了`minecraft:block_face`​和`minecraft: vertical_half`​状态，在实际应用时只需指定其中之一。
-  * `minecraft: block_face`​字符串状态拥有`down`​、`up`​、`north`​、`south`​、`east`​和`west`​六个有效值，对应玩家放置方块时点击的方块朝向面。
-  * `minecraft: vertical_half`​字符串状态拥有`bottom`​和`top`​两个有效值，分别对应方块被放置在下半格或上半格。
+  * ​`minecraft: block_face`​字符串状态拥有`down`​、`up`​、`north`​、`south`​、`east`​和`west`​六个有效值，对应玩家放置方块时点击的方块朝向面。
+  * ​`minecraft: vertical_half`​字符串状态拥有`bottom`​和`top`​两个有效值，分别对应方块被放置在下半格或上半格。
   * 两个状态都会在玩家放置方块时设置。
 
 [**附加包**](https://zh.minecraft.wiki/w/%E9%99%84%E5%8A%A0%E5%8C%85)
 
 * 为`minecraft:placement_direction`​方块特征加入了`minecraft:facing_direction`​状态。
-  * `minecraft:facing_direction`​拥有`down`​、`up`​、`north`​、`south`​、`east`​和`west`​四个有效值。
+  * ​`minecraft:facing_direction`​拥有`down`​、`up`​、`north`​、`south`​、`east`​和`west`​四个有效值。
   * 可以通过`minecraft:placement_direction`​特征来启用和访问方块上的此状态。
   * 可以访问`block_property`​Molang查询和`set_block_property`​事件响应中应用`minecraft:placement_direction`​特征的方块上的`minecraft:cardinal_direction`​状态。
 * 将`minecraft:cardinal_direction`​的类型更改为字符串，拥有`north`​、`south`​、`east`​和`west`​四个有效值。
@@ -614,25 +628,29 @@
 * 将`events.beforeChat`​事件重命名为`world.events.beforeChatSend`​。
 * 将`events.chat`​事件重命名为`world.events.chatSend`​。
 * 将`BeforeChatEvent`​事件重命名为`ChatSendBeforeEvent`​。
-* 将`BeforeChatEventSignal`​事件重命名为`ChatSendBeforeEventSignal`​。
+* 将`BeforeChatEventSignal`​事件重命名为 `ChatSendBeforeEventSignal`​。
 * 将`ChatEvent`​事件重命名为`ChatSendAfterEvent`​。
 * 将`ChatEventSignal`​事件重命名为`ChatSendAfterEventSignal`​。
 * 修复了`resolve()`​无法解析自定义方块属性的问题。
 * 将`scoreboard`​属性重命名为`Entity.scoreboardIdentity`​。
-* 物品事件
-  * 现在`ItemStartUseOnEvent`​事件只会以搭建时第一个交互的方块为对象触发。
-  * 现在`ItemUseOnEvent`​事件只会在物品对方块成功使用时触发。
-  * 将`ItemUseOnEvent`​事件的`blockLocation: Vec3`​属性改为`block: Block`​。
-  * 将`ItemStartUseOnEvent`​事件的`blockLocation: Vec3`​属性改为`block: Block`​。
-  * 将`ItemStopUseOnEvent`​事件的`blockLocation: Vec3`​属性改为`block: Block`​。
-  * 将`ProjectileHitEvent`​事件的`faceLocation: Vec2`​属性改为`faceLocation: Vec3`​，并以下西北方向为原点。
-  * 将`ItemUseOnEvent`​事件的`faceLocation: Vec2`​属性改为`faceLocation: Vec3`​，并以下西北方向为原点。
-* `Entity`
-  * 加入了`teleportOptions {dimension?: Dimension, rotation?: Vector2, keepVelocity?: boolean, facingLocation?: Vector3, checkForBlocks?: boolean}`​接口。
-  * 加入了`Vector2 {x: number, y: number}`​接口。
-  * 加入了`tryTeleport(location: Vector3, teleportOptions?: teleportOptions) : boolean`​函数。
-    * 用于尝试传送实体，在实体无法被传送时返回`false`​。
-  * 将`teleport`​函数更改为`teleport(location: Vector3, teleportOptions?: teleportOptions) : void`​。
+
+**物品事件**
+
+* 现在`ItemStartUseOnEvent`​事件只会以搭建时第一个交互的方块为对象触发。
+* 现在`ItemUseOnEvent`​事件只会在物品对方块成功使用时触发。
+* 将`ItemUseOnEvent`​事件的`blockLocation: Vec3`​属性改为`block: Block`​。
+* 将`ItemStartUseOnEvent`​事件的`blockLocation: Vec3`​属性改为`block: Block`​。
+* 将`ItemStopUseOnEvent`​事件的`blockLocation: Vec3`​属性改为`block: Block`​。
+* 将`ProjectileHitEvent`​事件的`faceLocation: Vec2`​属性改为`faceLocation: Vec3`​，并以下西北方向为原点。
+* 将`ItemUseOnEvent`​事件的`faceLocation: Vec2`​属性改为`faceLocation: Vec3`​，并以下西北方向为原点。
+
+**`Entity`**
+
+* 加入了`teleportOptions {dimension?: Dimension, rotation?: Vector2, keepVelocity?: boolean, facingLocation?: Vector3, checkForBlocks?: boolean}`​接口。
+* 加入了`Vector2 {x: number, y: number}`​接口。
+* 加入了`tryTeleport(location: Vector3, teleportOptions?: teleportOptions) : boolean`​函数。
+  * 用于尝试传送实体，在实体无法被传送时返回`false`​。
+* 将`teleport`​函数更改为`teleport(location: Vector3, teleportOptions?: teleportOptions) : void`​。
 * 将`setRotation`​函数更改为`setRotation(rotation: Vector2) : void`​。
 * 将`getRotation`​函数更改为`getRotation() : Vector2`​。
 * 将`addTag(tag: string): boolean`​函数的`tag`​参数的字符串长度限制在256个字符内。
@@ -640,8 +658,10 @@
 * 加入了`EntityApplyDamageOptions`​接口，作为`applyDamage`​的额外伤害来源选项输入值。
 * 加入了`EntityApplyDamageByProjectileOptions`​接口，作为`applyDamage`​的额外弹射物弹伤害来源选项输入值。
 * 将`applyDamage`​的`source`​参数更改为`options`​，并将参数类型从`EntityDamageSource`​更改为`EntityApplyDamageOptions | EntityApplyDamageByProjectileOptions`​。
-* `SimulatedPlayer`
-  * 将`getHeadRotation`​函数更改为`getHeadRotation() : Vector2`​。
+
+**`SimulatedPlayer`**
+
+* 将`getHeadRotation`​函数更改为`getHeadRotation() : Vector2`​。
 * 现在`TitleDisplayOptions`​可以接受浮点数值。
 * 加入了`WorldSoundOptions`​和`PlayerSoundOptions`​接口类型。
   * 为`playSound`​函数加入了`location`​必选参数。
@@ -653,32 +673,44 @@
 * 现在实体对象可以在区块重新加载或维度更改后持续存在。无效的实体可以在转移到另一个维度或所在区块重新加载后被引用。
 * 加入了`lifetimeState`​只读属性。
   * 用于返回实体的生命状态，有`loaded`​和`unloaded`​两种返回值。
-* `ItemDefinitionTriggeredEvent`
-  * 将`item`​属性重命名为`itemStack`​。
-* `ItemStartUseOnEvent`
-  * 将`item`​属性重命名为`itemStack`​。
-  * 将`getBlockLocation`​函数替换为`blockLocation: Vector3`​只读属性。
-  * 移除了`getBuildBlockLocation`​函数。
-* `ItemStopUseOnEvent`
-  * 将`item`​属性重命名为`itemStack`​。
-  * 将`getBlockLocation`​函数替换为`blockLocation: Vector3`​只读属性。
-* `ItemUseEvent`
-  * 将`item`​属性重命名为`itemStack`​。
-* `ItemUseOnEvent`
-  * 将`item`​属性重命名为`itemStack`​。
-  * 将`getBlockLocation`​函数替换为`blockLocation: Vector3`​只读属性。
-  * 将`faceLocationX`​和`faceLocation`​函数替换为`faceLocation: Vector2`​只读属性。
-* `BlockHitInformation`
-  * 将`faceLocationX`​和`faceLocation`​函数替换为`faceLocation: Vector2`​只读属性。
+
+**`ItemDefinitionTriggeredEvent`**
+
+* 将`item`​属性重命名为`itemStack`​。
+
+**`ItemStartUseOnEvent`**
+
+* 将`item`​属性重命名为`itemStack`​。
+* 将`getBlockLocation`​函数替换为`blockLocation: Vector3`​只读属性。
+* 移除了`getBuildBlockLocation`​函数。
+
+**`ItemStopUseOnEvent`**
+
+* 将`item`​属性重命名为`itemStack`​。
+* 将`getBlockLocation`​函数替换为`blockLocation: Vector3`​只读属性。
+
+**`ItemUseEvent`**
+
+* 将`item`​属性重命名为`itemStack`​。
+
+**`ItemUseOnEvent`**
+
+* 将`item`​属性重命名为`itemStack`​。
+* 将`getBlockLocation`​函数替换为`blockLocation: Vector3`​只读属性。
+* 将`faceLocationX`​和`faceLocation`​函数替换为`faceLocation: Vector2`​只读属性。
+
+**`BlockHitInformation`**
+
+* 将`faceLocationX`​和`faceLocation`​函数替换为`faceLocation: Vector2`​只读属性。
 
 **API**
 
 * 修复了已修改的装备和容器槽位未被同步到客户端的漏洞。
-* `@minecraft/server`
+* ​`@minecraft/server`​
   * 将`BlockProperties`​重命名为`BlockStates`​。
   * 将`getAllProperties`​重命名为`BlockPermutation.getAllStates`​。
   * 将`getProperty`​重命名为`BlockPermutation.getState`​。
-* 将下列API从测试版移至`@minecraft/server 1.2.0`​：
+* 将下列API从测试版移至`@minecraft/server 1.2.0`​:
   * 将`applyDamage(amount: number, options?: EntityApplyDamageByProjectileOptions | EntityApplyDamageOptions): boolean`​移至`2.0`​。
   * 将`kill(): boolean`​移至`2.0`​。
   * 将`EntityApplyDamageOptions`​移至`2.0`​。
@@ -706,58 +738,58 @@
 * 将`EntityBaseMovementComponent`​类移至`1.2.0`​。
 * 将`maxTurn: number`​只读属性移至`1.2.0`​。
 * 将下列`EntityBaseMovementComponent`​的子类移至`1.2.0`​：
-  * `EntityMovementAmphibiousComponent`
-  * `EntityMovementBasicComponent`
-  * `EntityMovementFlyComponent`
-  * `EntityMovementGenericComponent`
-  * `EntityMovementHoverComponent`
-  * `EntityMovementJumpComponent`
-  * `EntityMovementSkipComponent`
+  * ​`EntityMovementAmphibiousComponent`​
+  * ​`EntityMovementBasicComponent`​
+  * ​`EntityMovementFlyComponent`​
+  * ​`EntityMovementGenericComponent`​
+  * ​`EntityMovementHoverComponent`​
+  * ​`EntityMovementJumpComponent`​
+  * ​`EntityMovementSkipComponent`​
 * 将`EntityIsDyableComponent`​类重命名为`EntityIsDyeableComponent`​并移至`1.2.0`​。
 * 将下列`EntityComponent`​的子类移至`1.2.0`​：
-  * `EntityCanClimbComponent`
-  * `EntityCanFlyComponent`
-  * `EntityCanPowerJumpComponent`
-  * `EntityColorComponent`
-  * `EntityFireImmuneComponent`
-  * `EntityFloatsInLiquidComponent`
-  * `EntityFlyingSpeedComponent`
-  * `EntityFrictionModifierComponent`
-  * `EntityGroundOffsetComponent`
-  * `EntityIsBabyComponent`
-  * `EntityIsChargedComponent`
-  * `EntityIsChestedComponent`
-  * `EntityIsHiddenWhenInvisibleComponent`
-  * `EntityIsIgnitedComponent`
-  * `EntityIsIllagerCaptainComponent`
-  * `EntityIsSaddledComponent`
-  * `EntityIsShakingComponent`
-  * `EntityIsShearedComponent`
-  * `EntityIsStackableComponent`
-  * `EntityIsStunnedComponent`
-  * `EntityIsTamedComponent`
-  * `EntityMarkVariantComponent`
-  * `EntityPushThroughComponent`
-  * `EntityScaleComponent`
-  * `EntitySkinIdComponent`
-  * `EntityVariantComponent`
-  * `EntityWantsJockeyComponent`
-* `Enchantments`
+  * ​`EntityCanClimbComponent`​
+  * ​`EntityCanFlyComponent`​
+  * ​`EntityCanPowerJumpComponent`​
+  * ​`EntityColorComponent`​
+  * ​`EntityFireImmuneComponent`​
+  * ​`EntityFloatsInLiquidComponent`​
+  * ​`EntityFlyingSpeedComponent`​
+  * ​`EntityFrictionModifierComponent`​
+  * ​`EntityGroundOffsetComponent`​
+  * ​`EntityIsBabyComponent`​
+  * ​`EntityIsChargedComponent`​
+  * ​`EntityIsChestedComponent`​
+  * ​`EntityIsHiddenWhenInvisibleComponent`​
+  * ​`EntityIsIgnitedComponent`​
+  * ​`EntityIsIllagerCaptainComponent`​
+  * ​`EntityIsSaddledComponent`​
+  * ​`EntityIsShakingComponent`​
+  * ​`EntityIsShearedComponent`​
+  * ​`EntityIsStackableComponent`​
+  * ​`EntityIsStunnedComponent`​
+  * ​`EntityIsTamedComponent`​
+  * ​`EntityMarkVariantComponent`​
+  * ​`EntityPushThroughComponent`​
+  * ​`EntityScaleComponent`​
+  * ​`EntitySkinIdComponent`​
+  * ​`EntityVariantComponent`​
+  * ​`EntityWantsJockeyComponent`​
+* ​`Enchantments`​
   * 移除了`MinecraftEnchantmentTypes`​类。
   * 现在附魔类型可以用字符串指定。
 * 现在`ExplosionBeforeEvent`​的`source`​为可选项。
-* `TameableComponent`
+* ​`TameableComponent`​
   * 移除了`unimplemented`​和`tameEvent`​。
 * 更新了API以更好地处理未加载和非常加载区块的操作。
 * 现在与处于未加载和非常加载区块的`Block`​物体交互会抛出`PositionInUnloadedChunkError: Exception`​错误。
 * 现在与维度高度限制之外的区域交互会抛出`PositionInUnloadedChunkError: Exception`​错误。
-* `Dimension`
+* ​`Dimension`​
   * `getBlock`​现在的返回`Block`​值现在为可选项，当指定方块处于未加载区块内时会返回`undefined`​。
-* `Signs`
+* ​`Signs`​
   * 向`BlockSignComponent`​中的`setText`​、`getText`​、`getRawText`​、`setTextDyeColor`​和`getTextDyeColor`​加入了`SignSide`​参数以支持获取和设置告示牌两边的文字和文字颜色。
   * 向`BlockSignComponent`​加入了`isWaxed`​属性以表明玩家是否可以编辑告示牌。
   * 向`BlockSignComponent`​加入了`setWaxed`​方法以禁止玩家编辑告示牌。
-* `Dimension`​和`Entity`​的`runCommand`​和`runCommandAsync`​函数现在可以报错。
+* ​`Dimension`​和`Entity`​的`runCommand`​和`runCommandAsync`​函数现在可以报错。
   * `runCommand`​会抛出`CommandError`​错误。
   * `runCommandAsync`​会将`CommandError`​移交至`reject`​处理器。
 * 加入了`EffectTypes`​类。
@@ -778,15 +810,15 @@
     * 用于使指定实体具有指定状态效果。在状态效果不存在或时长为负数时返回`false`​。
 * 现在当物品`minecraft:fuel`​组件的`duration`​属性设为最小值时物品也可以在高炉和烟熏炉中正常使用。
 
-### 修复
+## 修复
 
-#### 常规
+### 常规
 
 * 有一个分屏玩家离开游戏时，其他分屏玩家不再会断开连接。（[MCPE-168695](https://bugs.mojang.com/browse/MCPE-168695)）
 * 降低了启动和加载至开始屏幕的所需时间。
 * 修复了同一设备上的客户端无法找到本地托管的专用服务器的问题。
 
-#### 游戏内容
+### 游戏内容
 
 * 楼梯下飞行时不再会禁用飞行。（[MCPE-168999](https://bugs.mojang.com/browse/MCPE-168999)）
 * 修复了玩家在灵魂沙产生的上涌气泡柱上跳跃时会累积摔落伤害的问题。
@@ -794,21 +826,21 @@
 * 现在玩家在死亡屏幕上返回主菜单后再次打开世界时，其判定箱会拥有正确的大小。（[MCPE-167045](https://bugs.mojang.com/browse/MCPE-167045)）
 * 现在拥有村庄英雄效果的玩家身上会产生明显的绿色粒子。
 
-#### 生物
+### 生物
 
 * 恶魂现在会在嘴部高度处发射火球，而不是在眼睛高度处。（[MCPE-35202](https://bugs.mojang.com/browse/MCPE-35202)）
 * 人形生物和盔甲架穿戴的靴子不再会产生深度冲突。
 * 人形生物和盔甲架穿戴的护腿的“裤腿”和“腰带”部分不再会产生深度冲突。
 * 蜜蜂进食时不再会发出玩家进食的音效。（[MCPE-169567](https://bugs.mojang.com/browse/MCPE-169567)）
 
-#### 幽匿类方块
+### 幽匿类方块
 
 * 现在幽匿感测体激活时会充能下方方块。
 * 含水的幽匿尖啸体现在会静音。（[MCPE-169563](https://bugs.mojang.com/browse/MCPE-169563)）
 * 现在玩家和生物行走、坠落、跳跃和降落在幽匿感测体上的音效由“玩家”音效滑块控制。
 * 现在对任意物品的使用操作，例如使用刷子、使用望远镜或吃下苹果，均会发送能够被幽匿感测体和监守者检测的物品交互事件。
 
-#### 方块
+### 方块
 
 * 现在林地府邸中的原木拥有正确的朝向。（[MCPE-168387](https://bugs.mojang.com/browse/MCPE-168387)）
 * 移除了`lava_cauldron`​方块。（[MCPE-39974](https://bugs.mojang.com/browse/MCPE-39974)）
@@ -827,12 +859,12 @@
 * 现在测重压力板在上方有多个物品时会立即更新其发出的信号强度。（[MCPE-156773](https://bugs.mojang.com/browse/MCPE-156773)）
 * 玩家不再能够对带有空白文本的告示牌使用墨囊、荧光墨囊或染料。（[MCPE-133778](https://bugs.mojang.com/browse/MCPE-133778)）
 
-#### 物品
+### 物品
 
 * 修复了部分世界模板中的物品展示框中的物品可能会显得过小的问题。（[MCPE-163399](https://bugs.mojang.com/browse/MCPE-163399)）
 * 已损坏和未损坏的鞘翅现在会在手上、世界中和物品展示框中渲染为正确的图标。（[MCPE-19700](https://bugs.mojang.com/browse/MCPE-19700)）
 
-#### Realms
+### Realms
 
 * 更改了新建帖子菜单中占位符文本的字体。
 * 将订阅设置中的Realms（10名玩家）信息栏的文本由“10名玩家的Realms”更改为“10名玩家”。
@@ -844,7 +876,7 @@
 * 现在没有可用备份时会隐藏“下载世界”。
 * 修复了从“管理 Realm”页面进入管理订阅列表时不会填充该列表的漏洞。
 
-#### 辅助功能
+### 辅助功能
 
 * 修复了设置不会对弹窗的持续显示时间产生影响的问题。
 * 文本转语音现在会朗读创造模式物品栏中的四个选项卡的名称。
@@ -852,7 +884,7 @@
 * 更改了存储菜单中世界列表的标题文字的对比度。
 * 调整了药水、药箭和状态效果的颜色，以便更容易地区分。（[MCPE-168357](https://bugs.mojang.com/browse/MCPE-168357)）
 
-#### 用户界面
+### 用户界面
 
 * 添加好友的加载动画现在拥有正确的大小。（[MCPE-159261](https://bugs.mojang.com/browse/MCPE-159261)）
 * 现在命令方块UI中会显示方块类型图标。（[MCPE-159970](https://bugs.mojang.com/browse/MCPE-159970)）
@@ -868,11 +900,11 @@
 * 修复了创建新的世界屏幕中的多人游戏选项即使无效也会偶尔不变灰的问题。
 * 修复了游戏手柄图标会在其他屏幕上显示的问题。
 
-#### 触摸控制
+### 触摸控制
 
 * 修复了iOS和Android平台上的部分菜单屏幕上的键盘指引问题。
 
-#### 图形
+### 图形
 
 * 修复了在关闭光线追踪时加载的光线追踪兼容内容中开启光线追踪时发生的崩溃。
 * 修复了RTX中的月亮在水下发出的光照来源自月亮缩略图的对角的问题。（[MCPE-118898](https://bugs.mojang.com/browse/MCPE-118898)）
