@@ -305,4 +305,13 @@ API
 * ​/replaceitem​和/loot replace block​命令不再会在炼药锅中放置物品。（[MCPE-129472](https://bugs.mojang.com/browse/MCPE-129472)）
 * ​/teleport​命令中的旋转方向现在会相对于命令执行者，而不是目标。
 
+修复
+
+* 修复了启动游戏时的加载进度可能会卡在66%的问题。（[MCPE-168284](https://bugs.mojang.com/browse/MCPE-168284)）
+* 修复了在iOS平台上启动游戏时可能发生的崩溃。
+* 修复了在PC平台上启用光线追踪时，告示牌不会显示其文本的漏洞。（[MCPE-167638](https://bugs.mojang.com/browse/MCPE-167638)）
+* 修复了玩家在连接到服务器或Realms后加载本地游戏时会加载错误数据的问题。（[MCPE-164765](https://bugs.mojang.com/browse/MCPE-164765)）
+* 现在玩家首次启动游戏时会收到启用文本转语音选项的提示。
+* 修复了在PlayStation平台上无法购买或续期Realms的问题。
+
 </details>
