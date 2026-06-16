@@ -1,6 +1,4 @@
-# 未命名
-
-> 1.20.0是[足迹与故事](https://zh.minecraft.wiki/w/%E8%B6%B3%E8%BF%B9%E4%B8%8E%E6%95%85%E4%BA%8B)的首个正式版，也是[基岩版](https://zh.minecraft.wiki/w/%E5%9F%BA%E5%B2%A9%E7%89%88)的一次主要更新，发布于2028年8月17日[<sup>\[1\]</sup>](https://zh.minecraft.wiki/w/%E5%9F%BA%E5%B2%A9%E7%89%881.20.0#cite_note-1)[<sup>\[2\]</sup>](https://zh.minecraft.wiki/w/%E5%9F%BA%E5%B2%A9%E7%89%881.20.0#cite_note-2)。此次更新加入了[樱花树林](https://zh.minecraft.wiki/w/%E6%A8%B1%E8%8A%B1%E6%A0%91%E6%9E%97)生物群系、新生物[骆驼](https://zh.minecraft.wiki/w/%E9%AA%86%E9%A9%BC)和[嗅探兽](https://zh.minecraft.wiki/w/%E5%97%85%E6%8E%A2%E5%85%BD)、考古学相关内容，以及大量的新方块与新物品。
+# mc1.20.0版本更新内容
 
 {% hint style="success" icon="rotate" %}
 ## \[更新] 1.20.0版本更新公告：
@@ -9,9 +7,13 @@
 
 版本名称：\[足迹与故事]
 
-更新时间：2026-7-23
+更新时间：2028-8-17
 
 更新内容：
+{% endhint %}
+
+{% hint style="info" %}
+## 1.20.0是[足迹与故事的首个正式版，也是的一次主要更新，发布于2028年8月17日。此次更新加入了生物群系、新生物和、考古学相关内容，以及大量的新方块与新物品。](https://zh.minecraft.wiki/w/%E8%B6%B3%E8%BF%B9%E4%B8%8E%E6%95%85%E4%BA%8B)
 {% endhint %}
 
 ## 新内容
