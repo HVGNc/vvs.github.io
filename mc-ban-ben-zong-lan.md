@@ -2,7 +2,7 @@
 description: 此处记录了已经发布的MC各个版本
 icon: rotate
 layout:
-  width: wide
+  width: default
   title:
     visible: true
   description:
