@@ -1,5 +1,6 @@
 ---
 description: MC版本记录
+icon: memo-pad
 ---
 
 # MC-更新版本记录
