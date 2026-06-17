@@ -1,26 +1,9 @@
 ---
 description: 此处记录了已经发布的MC各个版本
 icon: rotate
-layout:
-  width: default
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
-  tags:
-    visible: true
-  actions:
-    visible: true
 tags:
-  - ban-ben
+  - tag: ban-ben
+    primary: true
 ---
 
 # MC版本总览
