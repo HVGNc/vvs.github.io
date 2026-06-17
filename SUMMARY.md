@@ -2,7 +2,7 @@
 
 * [欢迎页面](README.md)
 * [MC-更新版本记录](mc-geng-xin-ban-ben-ji-lu/README.md)
-  * [mc1.20.0版本更新内容](mc-geng-xin-ban-ben-ji-lu/mc1.20.0-ban-ben-geng-xin-nei-rong.md)
+  * [MC1.20.0版本更新内容](mc-geng-xin-ban-ben-ji-lu/mc1.20.0-ban-ben-geng-xin-nei-rong.md)
   * [MC1.19.0版本更新内容](mc-geng-xin-ban-ben-ji-lu/mc1.19.0-ban-ben-geng-xin-nei-rong/README.md)
     * [MC1.19.1版本更新](mc-geng-xin-ban-ben-ji-lu/mc1.19.0-ban-ben-geng-xin-nei-rong/mc1.19.1-ban-ben-geng-xin.md)
     * [MC1.19.2版本更新](mc-geng-xin-ban-ben-ji-lu/mc1.19.0-ban-ben-geng-xin-nei-rong/mc1.19.2-ban-ben-geng-xin.md)
